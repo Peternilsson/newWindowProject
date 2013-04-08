@@ -50,7 +50,7 @@ public class MainWindow {
 		Label lblEfternamn = new Label(shell, SWT.NONE);
 		lblEfternamn.setBounds(10, 40, 59, 14);
 		lblEfternamn.setText("Efternamn:");
-		//testarhghghg
+		//igen
 		text = new Text(shell, SWT.BORDER);
 		text.addSelectionListener(new SelectionAdapter() {
 			@Override
