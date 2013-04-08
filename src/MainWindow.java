@@ -1,7 +1,4 @@
 
-
-import java.lang.reflect.Array;
-
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Text;
@@ -16,7 +13,6 @@ import blog.Author;
 import blog.Blogg;
 import blog.Category;
 import blog.Post;
-import org.eclipse.swt.widgets.Combo;
 
 public class MainWindow {
 	private static Text text;
@@ -50,7 +46,7 @@ public class MainWindow {
 		Label lblEfternamn = new Label(shell, SWT.NONE);
 		lblEfternamn.setBounds(10, 40, 59, 14);
 		lblEfternamn.setText("Efternamn:");
-		//igen
+		
 		text = new Text(shell, SWT.BORDER);
 		text.addSelectionListener(new SelectionAdapter() {
 			@Override
